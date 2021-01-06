@@ -131,11 +131,21 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, answers) {
-  
+   fs.writeFile('../dist/generatedREADME.md', generateMarkdown(answers), err => {
+       if (err) throw new Error(err);
+
+       console.log('README created! Check out generatedREADME.md in the dist directory.');
+
+   })
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+        .then(answers => {
+            writeToFile(answers)
+        });
+}
 
 // Function call to initialize app
 init();
