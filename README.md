@@ -28,14 +28,14 @@
 
   ## **Questions**
   If you have any questions, please reach out:
-  *Email: [Email](akelstrom@gmail.com)
-  *Github: [github](www.github/akelstrom)
+  * Email: [Email](akelstrom@gmail.com)
+  * Github: [github](www.github/akelstrom)
   
   ## **License**
   Made with ❤️ by Alexandra
   MIT License
   ### **License Link**
-  *https://choosealicense.com/licenses/mit/
+  * https://choosealicense.com/licenses/mit/
 
 
 

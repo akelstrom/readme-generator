@@ -31,7 +31,7 @@ function generateMarkdown(data) {
 
   ## **Usage**
   ${data.usage}
-  ### **Screenshot**
+  #### **Screenshot**
   ![${data.altText}](${data.screenshot})
 
   ## **Credits**
@@ -41,15 +41,15 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## **Questions**
-  If you have any questions, please reach out:
-  *Email: [Email](${data.email})
-  *Github: [github](www.github/${data.github})
+  If you have any questions, feel free to reach out by email or GitHub: <br>
+  * Email: [Email](mailto:${data.email})
+  * GitHub: [github](www.github.com/${data.github})
   
   ## **License**
-  Made with ❤️ by ${data.name}
+  Made with ❤️ by ${data.name} <br>
   ${data.license}
-  ### **License Link**
-  *${data.licenseLink}
+  #### **License Link**
+  * ${data.licenseLink}
 
 
 
