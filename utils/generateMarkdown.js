@@ -41,12 +41,12 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## **Questions**
-  If you have any questions, feel free to reach out by email or GitHub: <br>
+  If you have any questions, feel free to reach out by email or GitHub: <br/>
   * Email: [Email](mailto:${data.email})
   * GitHub: [github](www.github.com/${data.github})
   
   ## **License**
-  Made with ❤️ by ${data.name} <br>
+  Made with ❤️ by ${data.name} <br/>
   ${data.license}
   #### **License Link**
   * ${data.licenseLink}
