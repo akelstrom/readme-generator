@@ -46,7 +46,7 @@ function generateMarkdown(data) {
   * GitHub: [github](www.github.com/${data.github})
   
   ## **License**
-  Made with ❤️ by ${data.name} <br/>
+  Made with ❤️ by ${data.name}\  
   ${data.license}
   #### **License Link**
   * ${data.licenseLink}
