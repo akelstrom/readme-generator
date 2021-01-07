@@ -74,6 +74,14 @@ const questions = [
     name: "installation",
     message:
       "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
+    validate: (installation) => {
+        if(installation) {
+            return true;
+        } else {
+            console.log("Please list the steps required to install and run your application with a step-by-step description.");
+            return false;
+        }
+    }
   },
   {
     type: "input",
@@ -109,9 +117,8 @@ const questions = [
       if (altText) {
         return true;
       } else {
-        console.log(
-          "Please provide some alt text to describe your screenshot."
-        );
+        console.log("Please provide some alt text to describe your screenshot.");
+        return false;
       }
     },
   },
@@ -120,12 +127,22 @@ const questions = [
     name: "credits",
     message:
       "Please list any collabotors, or third party assets that assisted with your project's development.",
+    validate: (credits) => {
+      if (credits) {
+        return true;
+      } else {
+        console.log(
+          "Please enter any any collabotors, or third party assets that assisted with your project's development."
+        );
+        return false;
+      }
+    },
   },
   {
     type: "list",
-    name: "licsence",
+    name: "license",
     message:
-      "Select what lisence you would like to use to protect your project:",
+      "Select what license you would like to use to protect your project:",
     choices: [
       "GNU AGPLv3",
       "GNU GPLv3",
@@ -141,6 +158,20 @@ const questions = [
     type: "input",
     name: "licenseLink",
     message: "Please provide a link for the license you have chosen.",
+    validate: (licenseLink) => {
+      if (licenseLink) {
+        return true;
+      } else {
+        console.log("Please provide a link for the license you have chosen.");
+        return false;
+      }
+    },
+  },
+  {
+    type: "input",
+    name: "tests",
+    message:
+      "If you would like to write tests for your application along with examples on how to use them.",
   },
 ];
 
@@ -150,7 +181,7 @@ function writeToFile(answers) {
     if (err) throw new Error(err);
 
     console.log(
-      "README created! Check out generatedREADME.md in the dist directory."
+      "README created! Check out the README.md file in this project's root directory."
     );
   });
 }
@@ -159,7 +190,7 @@ function writeToFile(answers) {
 function init() {
   inquirer.prompt(questions)
   .then((answers) => {
-    writeToFile(answers);
+        writeToFile(answers);
   });
 }
 
