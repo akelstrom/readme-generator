@@ -42,14 +42,14 @@ function generateMarkdown(data) {
 
   ## **Questions**
   If you have any questions, feel free to reach out by email or GitHub: <br/>
-  * Email: [Email](mailto:${data.email})
-  * GitHub: [github](www.github.com/${data.github})
+  * [Email](mailto:${data.email})
+  * [GitHub](www.github.com/${data.github})
   
   ## **License**
   Made with ❤️ by ${data.name}\  
-  ${data.license}
-  #### **License Link**
-  * ${data.licenseLink}
+
+  This software is protected under the [${data.license}](${data.licenseLink}).
+
 
 
 

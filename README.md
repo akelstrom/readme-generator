@@ -1,7 +1,7 @@
-# **My Project Title**
+# **My Project**
   
   ## **Description**
-  This project 
+  readme
   ## **Table of Contents**
 
   * [Installation](#installation)
@@ -13,29 +13,29 @@
   
   
   ## **Installation**
-  install node
+  so many steps
 
   ## **Usage**
-  clone repo and run the command node index
+  so amny
   #### **Screenshot**
   ![screenshot](screenshot.png)
 
   ## **Credits**
-  thank you to my tutor
+  tutor
 
   ## **Tests**
   no tests
 
   ## **Questions**
   If you have any questions, feel free to reach out by email or GitHub: <br/>
-  * Email: [Email](mailto:akelstrom@gmail.com)
-  * GitHub: [github](www.github.com/akelstrom)
+  * [Email](mailto:akelstrom@gmail.com)
+  * [GitHub](www.github.com/akelstrom)
   
   ## **License**
   Made with ❤️ by Alexandra  
-  MIT License
-  #### **License Link**
-  * https://choosealicense.com/licenses/mit/
+
+  This software is protected under the [MIT License](https://choosealicense.com/licenses/mit/).
+
 
 
 
