@@ -1,7 +1,7 @@
-# **README Generator**
+# **My Project Title**
   
   ## **Description**
-  This is an app that uses node and npm inquirer to prompt the user for questions about their project, in order to generate a quality README for their project.
+  This project 
   ## **Table of Contents**
 
   * [Installation](#installation)
@@ -13,28 +13,28 @@
   
   
   ## **Installation**
-  First, you must install node.js. Then you must fork and clone the repository and open it in VS code. Open the terminal and navigate to the project's root directory. Run the command "node index" and answer the questions that are prompted. 
+  install node
 
   ## **Usage**
-  Please refer to installation as a guide for use.
-  ### **Screenshot**
+  clone repo and run the command node index
+  #### **Screenshot**
   ![screenshot](screenshot.png)
 
   ## **Credits**
-  Thank you to my tutor, who assisted with my understanding of node and npm. 
+  thank you to my tutor
 
   ## **Tests**
-  There are no tests for this application at the moment.
+  no tests
 
   ## **Questions**
-  If you have any questions, please reach out:
-  * Email: [Email](akelstrom@gmail.com)
-  * Github: [github](www.github/akelstrom)
+  If you have any questions, feel free to reach out by email or GitHub: <br/>
+  * Email: [Email](mailto:akelstrom@gmail.com)
+  * GitHub: [github](www.github.com/akelstrom)
   
   ## **License**
-  Made with ❤️ by Alexandra
+  Made with ❤️ by Alexandra  
   MIT License
-  ### **License Link**
+  #### **License Link**
   * https://choosealicense.com/licenses/mit/
 
 
