@@ -154,34 +154,21 @@ const questions = [
       "The Unlicense",
     ],
   },
-//   {
-//     type: "input",
-//     name: "licenseLink",
-//     message: "Please provide a link for the license you have chosen.",
-//     validate: (licenseLink) => {
-//       if (licenseLink) {
-//         return true;
-//       } else {
-//         console.log("Please provide a link for the license you have chosen.");
-//         return false;
-//       }
-//     },
-//   },
   {
     type: "input",
     name: "tests",
     message:
-      "If you would like to write tests for your application along with examples on how to use them.",
+      "List any tests for your application along with examples on how to use them.",
   },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(answers) {
-  fs.writeFile("./generatedREADME.md", generateMarkdown(answers), (err) => {
+  fs.writeFile("./dist/generatedREADME.md", generateMarkdown(answers), (err) => {
     if (err) throw new Error(err);
 
     console.log(
-      "README created! Check out the README.md file in this project's root directory."
+      "README created! Check out the generatedREADME.md file in the 'dist' folder of this project's directory."
     );
   });
 }
