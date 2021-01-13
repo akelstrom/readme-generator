@@ -154,19 +154,19 @@ const questions = [
       "The Unlicense",
     ],
   },
-  {
-    type: "input",
-    name: "licenseLink",
-    message: "Please provide a link for the license you have chosen.",
-    validate: (licenseLink) => {
-      if (licenseLink) {
-        return true;
-      } else {
-        console.log("Please provide a link for the license you have chosen.");
-        return false;
-      }
-    },
-  },
+//   {
+//     type: "input",
+//     name: "licenseLink",
+//     message: "Please provide a link for the license you have chosen.",
+//     validate: (licenseLink) => {
+//       if (licenseLink) {
+//         return true;
+//       } else {
+//         console.log("Please provide a link for the license you have chosen.");
+//         return false;
+//       }
+//     },
+//   },
   {
     type: "input",
     name: "tests",
@@ -177,7 +177,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(answers) {
-  fs.writeFile("README.md", generateMarkdown(answers), (err) => {
+  fs.writeFile("./generatedREADME.md", generateMarkdown(answers), (err) => {
     if (err) throw new Error(err);
 
     console.log(
