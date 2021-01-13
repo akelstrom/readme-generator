@@ -1,8 +1,8 @@
-# **README generator**
+# **readme**
   
   ## **Description**
-  An app that generates a quality README file.
-  
+  slkfjds
+
   ## **Table of Contents**
   * [Installation](#installation)
   * [Usage](#usage)
@@ -12,18 +12,18 @@
   * [License](#license)
   
   ## **Installation**
-  Make sure you have node installed
+  sldfkjsd
 
   ## **Usage**
-  Download node, clone the repo, use the terminal to naviage to the project's directory, and run the command 'node index' then you will find the generated readme in the dist folder of the project (once you have answered all the questions.
+  sldfkjsd
   #### **Screenshot**
   ![screenshot](screenshot.png)
 
   ## **Credits**
-  Upenn Coding bootcamp instructional staff
+  none
 
   ## **Tests**
-  No tests.
+  none
 
   ## **Questions**
   If you have any questions, feel free to reach out by email or GitHub: <br/>
@@ -31,6 +31,6 @@
   * [GitHub](www.github.com/akelstrom)
   
   ## **License**
-  Made with ❤️ by Alexandra Kelstrom  
+  Made with ❤️ by Alexandra
 
-  This software is protected under the [The Unlicense](undefined).
+  This software is protected under the [Apache License 2.0]('https://choosealicense.com/licenses/apache-2.0/').
