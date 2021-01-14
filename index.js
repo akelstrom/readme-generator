@@ -161,7 +161,7 @@ const questions = [
       "List any tests for your application along with examples on how to use them.",
   },
 ];
-
+ 
 // TODO: Create a function to write README file
 function writeToFile(answers) {
   fs.writeFile("./dist/generatedREADME.md", generateMarkdown(answers), (err) => {
